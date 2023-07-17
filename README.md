@@ -8,6 +8,6 @@ Description: Direct input and output of audio including ADC and DAC operation. T
 Line IN: Audio in HPH Out: Audio out SW0: Direct input/output activation BTN3: Reset, re-initialize
 
 Update:
-The I2C module has been split into separate components and now includes a record mode and play back mode, each lasting for 5 seconds. Additionally, the 'clip' effect has been incorporated, but unfortunately, the codec automatically adjusts the changes I made. To support these functionalities, an IP block memory with a width of 16 bits and a size of 288000 depth needs to be added to the project.
+The I2C module has been split into separate components and now includes a record mode and play back mode, each lasting for 5 seconds. To support these functionalities, an IP block memory with a width of 16 bits and a size of 288000 depth needs to be added to the project.
 
-BTN0: record for 5 sec BTN1: playback 5 sec and SW1: 'clip' effect.
+BTN0: record for 5 sec BTN1: playback 5 sec.
